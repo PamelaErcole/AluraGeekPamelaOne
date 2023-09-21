@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <link href="../AluraGeek/estilos.css" rel="stylesheet">
+        <title>Galería</title>
+    </head>
+    <body>
+        <header class="cabecera">
+            <section class="cabecera__info">
+                <img class="cabecera__img" src="../AluraGeek/imagenes/logo_planeta.jpg" alt="imagen planeta">
+                <h1 class="nombre_comercio">PlanetaSweet</h1>
+                
+                    <input class="buscar__prod" type="search" name="buscar" id="buscar-producto" required placeholder="¿Qué deseas buscar?">
+                    <span class="buscar__icono"></span>
+                    <a class="btn__agregar" href="../AluraGeek/agregarProducto.html" target="_blank">Nuevo Producto</a>
+            </section>
+        </header>
+
+        <section data-galeria-productos>
+            <h3 class="titulo__galeria">Todos los Productos</h3>            
+
+        </section>
+
+        <section class="formulario__contacto">
+            <div class="form__info">
+                <div class="formu-empresa">
+                    <img class="cabecera__img-contacto" src="../AluraGeek/imagenes/logo_planeta.jpg" alt="imagen planeta">
+                    <h1 class="nombre_comercio-contacto">PlanetaSweet</h1>
+                </div>
+
+                <ul class="lista">
+                    <li>Quienes Somos</li>
+                    <li>Quiero ser franquiciado</li>
+                    <li>Nuestras Sucursales</li>
+                </ul>
+                <form class="form__contacto">
+
+                    <input class="form__nombre" type="text" name="nombre" id="nombre-form" required placeholder="Nombre">
+                    <input class="form__mensaje" type="password" name="mensaje" id="mensaje-form" required placeholder="Escribe el mensaje" maxlength="8">
+                    <button  class="btn__enviar" type="submit" name="enviar">Enviar Mensaje</button>
+                </form> 
+
+            </div>
+        </section>
+    
+
+    <footer class="piePagina">
+        <h1>Realizado por Ercole Pamela - 2023</h1>
+    </footer>
+    <script type="module" src="../AluraGeek/scriptListarProductos.js"></script>
+</body>
+
+</html>
