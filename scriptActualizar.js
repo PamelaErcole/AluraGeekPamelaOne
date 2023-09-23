@@ -1,4 +1,4 @@
-import { productoSweet } from "../AluraGeek/productos.js ";
+import { productoSweet } from "../productos.js ";
 
 const nuevaURL = new URL(window.location);
 
