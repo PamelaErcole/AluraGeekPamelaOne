@@ -1,4 +1,4 @@
-import { productoSweet } from "../productos.js ";
+import { productoSweet } from "./productos.js ";
 
 const nuevaURL = new URL(window.location);
 
@@ -29,6 +29,6 @@ formulario.addEventListener("submit", (evento) => {
       descripcionProducto.value
     )
     .then(() => {
-      window.location.href = "../Alurageek/index.html"
+      window.location.href = "./index.html"
     });
 });

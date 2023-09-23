@@ -8,7 +8,7 @@ const nuevoProducto = (nombre, precio, imagen, id) => {
             <img src="${imagen}" alt="imagenEnlace">     
             <p class="sweet__nombre">${nombre}</p>
             <p class="sweet__precio">${formatPrice(precio)}</p>
-            <a class="ver__producto" href="../galeria.html?id=${id}">Ver Producto</a>  
+            <a class="ver__producto" href="./galeria.html?id=${id}">Ver Producto</a>  
         </div>   
     `;
   card.innerHTML = contenido;

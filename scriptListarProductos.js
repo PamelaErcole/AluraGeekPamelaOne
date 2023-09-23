@@ -1,4 +1,4 @@
-import { productoSweet } from "../AluraGeek/productos.js";
+import { productoSweet } from "./productos.js";
 import { formatPrice } from "../formatterPrices.js";
 
 const getProducts = (nombre, precio, imagen, id) => {
@@ -8,13 +8,13 @@ const getProducts = (nombre, precio, imagen, id) => {
     <div class="producto">
         <div class="container">
             <button class="buttonDelete" type="button">
-              <img class="deleteImage" src="../Alurageek/imagenes/eliminar.png" alt="Eliminar" />
+              <img class="deleteImage" src="./imagenes/eliminar.png" alt="Eliminar" />
             </button>
             
-            <a href="../Alurageek/modificarProducto.html?id=${id}">
+            <a href="./modificarProducto.html?id=${id}">
             
               <button class="buttonEdit" type="button">
-                <img class="editImage" src="../Alurageek/imagenes/editar.png" alt="Editar" />
+                <img class="editImage" src="./imagenes/editar.png" alt="Editar" />
               </button>
             
             </a>

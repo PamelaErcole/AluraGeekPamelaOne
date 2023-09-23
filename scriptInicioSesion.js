@@ -8,7 +8,7 @@ btnEnter.addEventListener = ("submit", (evento) => {
 
     if (contrasenha.lenght>8 && email.lenght>8){
 
-        window.location.href="../Alurageek/galeria.html"
+        window.location.href="./galeria.html"
 
     }else{
 

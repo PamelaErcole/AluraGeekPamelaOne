@@ -1,4 +1,4 @@
-import { productoSweet } from "../AluraGeek/productos.js";
+import { productoSweet } from "./productos.js";
 
 const form = document.querySelector("[data-form-producto]");
 
@@ -12,7 +12,7 @@ form.addEventListener("submit", (evento) => {
   productoSweet
     .creaProdutos(nombreP, urlP, precioP)
     .then((respuesta) => {
-      window.location.href = "../Alurageek/index.html";
+      window.location.href = "./index.html";
       console.log(respuesta);
     })
     .catch((err) => {
